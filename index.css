@@ -1,32 +1,48 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-    background: linear-gradient(to bottom left, #000000, #c2a60ae1);
-    height: 100vh;
+body {
     font-family: Arial, sans-serif;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin: 0;
 }
 
-.title{
-    padding-top: 20px;
+.hero-header {
+    background-color: #141414;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    background: linear-gradient(to bottom left, #060606, #c2a60ae1);
+    height: 100vh;
+}
+
+.title {
+    padding-top: 50px;
     text-align: center;
     font-size: 50px;
 }
 
-.description{
+.sub-title{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.description {
     padding-top: 30px;
     text-align: center;
     font-size: 25px;
-    padding-bottom: 70px;
+    padding-bottom: 170px;
 }
 
 .slider-container {
     height: 300px;
     width: 400px;
-    margin:  auto;
+    margin: auto;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -44,7 +60,7 @@ body{
 
 .cta-btn {
     display: block;
-    margin:35% auto;
+    margin: 0 auto;
     padding: 10px 20px;
     font-size: 18px;
     background-color: #c2a60ae1;
@@ -57,4 +73,14 @@ body{
 
 .cta-btn:hover {
     background-color: #968107;
+}
+
+.divider {
+    border: 3px solid gray;
+}
+
+.jml {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding-top: 50px;
 }
