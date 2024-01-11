@@ -41,8 +41,8 @@ body {
 }
 
 .slider-container {
-    min-height: 50px;
-    min-width: 50px;
+    min-height: 250px;
+    min-width: 150px;
     max-height: 500px;
     max-width: 500px;
     margin: auto;
@@ -107,14 +107,13 @@ form{
     padding-top: 50px;
     text-align: center;
     background-color: grey;
-    min-width: 300px;
+    min-width: 200px;
     margin: 50px auto 0px auto;
     padding-bottom: 50px;
     border-radius: 5px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
     border: 1px solid gray;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 410px;
 }
 
 .form-group {
@@ -125,7 +124,7 @@ form{
     /* Alinha horizontalmente os elementos */
 
     /* Centraliza verticalmente os elementos */
-    padding: 0px 10px;
+    padding: 10px;
 
 }
 
@@ -135,6 +134,11 @@ input {
     height: 35px;
     margin-bottom: 10px;
     font-size: 20px;
+    margin-top: 10px;
+}
+
+.texto{
+    height: 80px
 }
 
 #submit-btn {
