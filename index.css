@@ -82,8 +82,64 @@ body {
     border: 3px solid gray;
 }
 
-.cityhouse {
+.yellow-section {
+    background-color: #968109e1;
+    color: black;
+    padding-top: 50px;
+}
+
+.black-section {
     background-color: #1a1a1a;
     color: #ffffff;
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+form{
+    padding-top: 50px;
+    text-align: center;
+    background-color: grey;
+    width: 500px;
+    margin: 50px auto 0px auto;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid gray;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.label-container {
+    /* Alinha horizontalmente os elementos */
+
+    /* Centraliza verticalmente os elementos */
+    padding: 0px 10px;
+
+}
+
+input {
+    width: 85%;
+    border-radius: 7px;
+    height: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#submit-btn {
+    margin-top: 30px;
+    color: white;
+    background-color: #c2a60ae1;
+    border-color: #968107;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
 }

@@ -37,3 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // Configurar navegação automática (opcional)
   setInterval(nextSlide, 5000); // Muda de slide a cada 5 segundos (ajuste conforme necessário)
 });
+
+function scrollToElement() {
+  const element = document.querySelector('.formulario');
+  element.scrollIntoView({ behavior: 'smooth' });
+}
