@@ -13,12 +13,13 @@ body {
     background-color: #1a1a1a;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding-left: 5%;
+    padding-left: 12%;
 }
 
 .hero {
     background-color: #968109e1;
-    height: 100vh;
+    height: auto;
+
 }
 
 .title {
@@ -33,11 +34,23 @@ body {
     font-size: 30px;
 }
 
+.description-container {
+    border: #1a1a1a 1px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
 .description {
-    padding-top: 70px;
-    text-align: center;
+    padding-top: 20px;
+    text-align: justify;
     font-size: 25px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .slider-container {
@@ -64,7 +77,7 @@ body {
 
 .cta-btn {
     display: block;
-    margin: 20px auto 170px auto;
+    margin: 20px auto 0px auto;
     padding: 10px 20px;
     font-size: 18px;
     background-color: #c2a60ae1;
