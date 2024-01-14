@@ -34,6 +34,15 @@ body {
     font-size: 30px;
 }
 
+.video{
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
 .description-container {
     border: #1a1a1a 1px solid;
     margin-left: 20%;
@@ -120,13 +129,13 @@ form{
     padding-top: 50px;
     text-align: center;
     background-color: grey;
-    min-width: 200px;
+    min-width: 300px;
     margin: 50px auto 0px auto;
     padding-bottom: 50px;
     border-radius: 5px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 5px 5px rgba(136, 135, 135, 0.1);
     border: 1px solid gray;
-    max-width: 410px;
+    max-width: 413px;
 }
 
 .form-group {
@@ -134,9 +143,6 @@ form{
 }
 
 .label-container {
-    /* Alinha horizontalmente os elementos */
-
-    /* Centraliza verticalmente os elementos */
     padding: 10px;
 
 }
@@ -219,3 +225,12 @@ label{
             font-size: 20px;
             padding-bottom: 30px;
         }
+
+@media screen and (max-width: 600px) {
+
+    .description-container{
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    
+}
