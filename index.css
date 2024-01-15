@@ -10,7 +10,7 @@ body {
 }
 
 .hero-header {
-    background-color: #1a1a1a;
+    background-color: #726209;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding-left: 12%;
@@ -20,9 +20,9 @@ body {
 }
 
 .hero {
-    background-color: #968109e1;
+    background-color: #1a1a1a;
     height: auto;
-
+    color: #726209;
 }
 
 .title {
@@ -143,7 +143,7 @@ body {
 }
 
 .yellow-section {
-    background-color: #968109e1;
+    background-color: #726209;
     color: black;
     padding-top: 50px;
 }
@@ -156,7 +156,7 @@ body {
 }
 
 .black-section .sub-title:hover{
-    color: #968107;
+    color: #726209;
     transition: 0.5s;
 }
 
